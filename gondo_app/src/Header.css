@@ -1,0 +1,25 @@
+.header{
+    position: absolute;
+    width: 1920px;
+    height: 96px;
+    left: 0px;
+    top: 0px;
+    background: #DB2D3B;
+ }
+  
+ .appName{
+    position: absolute;
+    width: 247px;
+    height: 42px;
+    left: 96px;
+    top: 27px;
+  
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+  
+    color: #FFFFFF;
+ }
+ 
