@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Box from './Panel1';
+import Active_Header from './Active_header';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
