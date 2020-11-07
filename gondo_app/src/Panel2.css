@@ -1,0 +1,110 @@
+.panel-main {
+  position: absolute;
+  width: 540px;
+  height: 863px;
+  left: 1129px;
+  top: 156px;
+  
+  background: #7F95A8;
+  border-radius: 20px;
+}
+
+.panel-header {
+  position: absolute;
+  width: 400px;
+  height: 42px;
+  left: 90px;
+  top: 90px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  
+  color: #FFFFFF;
+}
+
+.panel-RR-closed {
+  position: absolute;
+  width: 478px;
+  height: 168px;
+  left: 32px;
+  top: 418px;
+  
+  background: #57748C;
+  border-radius: 20px;
+}
+
+.panel-RR-header {
+  position: absolute;
+  width: 400px;
+  height: 42px;
+  left: 43px;
+  top: 63px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  
+  color: #FFFFFF;
+}
+
+.panel-RR-open {
+  position: absolute;
+  width: 478px;
+  height: 168px;
+  left: 1161px;
+  top: 742px;
+  
+  background: #57748C;
+  border-radius: 20px;
+}
+
+
+.letsGoButton {
+  position: absolute;
+  width: 478px;
+  height: 92px;
+  left: 32px;
+  top: 626px;
+
+  border-radius: 12px;
+  opacity: 0.8;
+  transition: 0.4s;
+
+  background-color: #DB2D3B;
+}
+
+.letsGoButton:hover{
+  opacity: 1;
+}
+
+.letsGoButton.font {
+  border: none;
+  position: absolute;
+  width: 219.29px;
+  height: 56px;
+  left: 129px;
+  top: 18px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+
+  color: #FFFFFF;
+
+  /* This is to disable text selection highlighting  */
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                        supported by Chrome, Edge, Opera and Firefox */
+}
