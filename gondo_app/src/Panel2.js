@@ -10,8 +10,23 @@ const Panel2 = () => {
         <div className="panel-header">
           I’ll be working for:
         </div>
+        <div className="time-set-min" style={{display : 'inline-block'}}>
+          20
+        </div>
+        <div className="time-set-colon" style={{display : 'inline-block'}}> 
+          :
+        </div>
+        <div className="time-set-sec" style={{display : 'inline-block'}}>
+          00
+        </div>
         <div className="panel-RR-closed">
-          <div className="panel-RR-header">Rest & repeat?</div>
+          <div className="panel-RR-header">
+            Rest & repeat?
+          </div>
+          <label class="switch" style={{display : 'inline-block'}}>
+            <input type="checkbox"/>
+            <span class="slider round"></span>
+          </label>          
         </div>
 
         <div className="letsGoButton">

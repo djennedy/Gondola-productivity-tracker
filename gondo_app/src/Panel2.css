@@ -36,6 +36,74 @@
   border-radius: 20px;
 }
 
+.time-set-min {
+  position: absolute;
+  width: 164px;
+  height: 169px;
+  left: 89px;
+  top: 161px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 144px;
+  line-height: 169px;
+  /* identical to box height */
+  
+  text-align: right;
+  
+  color: #FFFFFF;  
+}
+
+.time-set-colon {
+  position: absolute;
+  width: 39px;
+  height: 169px;
+  left: 253px;
+  top: 161px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 144px;
+  line-height: 169px;
+  /* identical to box height */
+  
+  text-align: center;
+  
+  color: #FFFFFF;  
+}
+
+.time-set-sec {
+  position: absolute;
+  width: 164px;
+  height: 169px;
+  left: 292px;
+  top: 161px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 144px;
+  line-height: 169px;
+  /* identical to box height */
+  
+  text-align: right;
+  
+  color: #FFFFFF;  
+}
+
+.panel-RR-open {
+  position: absolute;
+  width: 478px;
+  height: 168px;
+  left: 1161px;
+  top: 742px;
+  
+  background: #57748C;
+  border-radius: 20px;
+}
+
 .panel-RR-header {
   position: absolute;
   width: 400px;
@@ -51,18 +119,6 @@
   
   color: #FFFFFF;
 }
-
-.panel-RR-open {
-  position: absolute;
-  width: 478px;
-  height: 168px;
-  left: 1161px;
-  top: 742px;
-  
-  background: #57748C;
-  border-radius: 20px;
-}
-
 
 .letsGoButton {
   position: absolute;
@@ -98,6 +154,70 @@
   text-align: center;
 
   color: #FFFFFF;
+}
+
+  /* slider */
+  .switch {
+    position: absolute;
+    left: 370px;
+    top: 67px;
+    width: 60px;
+    height: 34px;
+  }
+
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #FFFFFF;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #57748C;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #DB2D3B;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #DB2D3B;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+    background-color: #FFFFFF;
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
 
   /* This is to disable text selection highlighting  */
   -webkit-touch-callout: none; /* iOS Safari */
@@ -107,4 +227,3 @@
   -ms-user-select: none; /* Internet Explorer/Edge */
   user-select: none; /* Non-prefixed version, currently
                         supported by Chrome, Edge, Opera and Firefox */
-}
