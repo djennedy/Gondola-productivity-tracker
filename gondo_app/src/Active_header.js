@@ -23,8 +23,9 @@ class Active_Header extends React.Component {
           (this.state.count == 0) ? 
           this.setState({ count: this.state.activity.length -1 }) : this.setState({ count: this.state.count - 1 })
         }/>
-        <h1 style = {{display: 'table-cell' }}>{this.state.activity[this.state.count]}</h1>
-
+        <div style = {{display: 'table-cell', paddingLeft: '25px',paddingRight: '25px', maxWidth: '600px', minWidth: '600px'}}>
+        <h2 style = {{textAlign: 'center', fontSize: '1.5em'}} >{this.state.activity[this.state.count]}</h2>
+        </div>
 
         <img src={btnRight} alt = 'left' style = {{display: 'table-cell' }} onClick={() => 
           (this.state.count == this.state.activity.length -1) ? 
