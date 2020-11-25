@@ -1,6 +1,5 @@
-import logo from './logo.svg';
+import './Panel1.css';
 import React from 'react';
-import './App.css';
 import btnLeft from './BtnLeft.png';
 import btnRight from './BtnRight.png';
 

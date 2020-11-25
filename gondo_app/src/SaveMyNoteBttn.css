@@ -1,0 +1,27 @@
+.saveMyNoteBttn{
+    position: absolute;
+    width: 367px;
+    height: 60px;
+    left: 60px;
+    top: 735px;
+
+    border-radius: 12px;
+    opacity: 1;
+    transition: 0.4s;
+
+    background-color: #DB2D3B;
+
+    /* fonts */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+
+    color: #FFFFFF;
+}
+
+.saveMyNoteBttn:hover {
+    opacity: 0.85;
+}

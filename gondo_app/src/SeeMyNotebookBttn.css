@@ -1,0 +1,31 @@
+.seeMyNotebookBttn{
+    position: absolute;
+    width: 367px;
+    height: 60px;
+    left: 451px;
+    top: 735px;
+
+    border-radius: 12px;
+    opacity: 1;
+    transition: 0.4s;
+
+    background: rgba(244, 66, 66, 0.17);
+    border: 2px solid #F44242;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    /* fonts */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+
+    color: #F44242;
+
+}
+
+.seeMyNotebookBttn:hover{
+    opacity: 0.85;
+}

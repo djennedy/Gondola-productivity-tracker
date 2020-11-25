@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
+
+import './Panel1.css';
 
 function Note_Box() {
   return (

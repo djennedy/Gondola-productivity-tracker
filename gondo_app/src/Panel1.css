@@ -1,0 +1,130 @@
+.Panel1{
+    position: absolute;
+    width: 878px;
+    height: 863px;
+    left: 241px;
+    top: 50px;
+    
+    background: #7F95A8;
+    border-radius: 20px;
+    
+}
+
+.Active_header{
+    position: absolute;
+    width: 300px;
+    height: 80px;
+    left: 80px;
+    top: 130px;
+        
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 70px;
+    line-height: 169px;
+    /* identical to box height */
+    color: #FFFFFF;
+    display: table;
+}
+  
+.Active_header_bttn_left{
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    left: 285px;
+    top: 417px;
+        
+    display: inline-block;
+    
+    background: #FFFFFF;
+    transform: rotate(-90deg);
+}
+  
+.Active_header_bttn_right{
+    
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    left: 914px;
+    top: 387px;
+    
+    display: inline-block;
+    
+    background: #FFFFFF;
+    transform: rotate(90deg);
+}
+  
+.Note_box{
+    position: absolute;
+    width: 818px;
+    height: 375px;
+    left: 30px;
+    top: 440px;
+    
+    background: #57748C;
+    border-radius: 20px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+  
+.Note_box_Header
+{
+    position: absolute;
+    width: 282px;
+    height: 42px;
+    left: 30px;
+    top: 20px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    
+    color: #FFFFFF;
+  
+}
+  
+.Note_box_Panel
+{
+    position: absolute;
+    width: 757px;
+    height: 168px;
+    left: 30px;
+    top: 110px;
+        
+    border: 2px solid #FFFFFF;
+    background-color:#57748C ;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: Roboto; font-size: 30px ; 
+    color: rgb(255, 255, 255); 
+    white-space:pre-wrap
+    
+  
+}
+.Note_box_Panel_Header{
+    position: absolute;
+    width: 727px;
+    height: 138px;
+    left: 10px;
+    top: 0px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 42px;
+    
+    color: #FFFFFF;
+}
+  
+.Settings_btn{
+    position: absolute;
+    left: 90%;
+    right: 10%;
+    top: 5%;
+    bottom: 95%;
+  
+  
+}
+  

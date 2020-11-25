@@ -30,9 +30,7 @@ const Panel2 = () => {
         </div>
 
         <div className="letsGoButton">
-          <div className="letsGoButton font">
-            Let's go!
-          </div>
+          Let's go!
         </div>
       </div>
 

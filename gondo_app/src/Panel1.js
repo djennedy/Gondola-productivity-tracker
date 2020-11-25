@@ -1,8 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import SaveMyNoteBttn from './SaveMyNoteBttn';
 import Active_Header from './Active_header';
 import Note_Box from './NoteBox';
 import Settings from './Settings_btn';
+import SeeMyNotbookBttn from './SeeMyNotebookBttn';
+import './Panel1.css';
 
 function Box() {
   return (
@@ -12,6 +13,9 @@ function Box() {
        <Active_Header/>
        <Settings/>
        <Note_Box/>
+       <SaveMyNoteBttn/>
+       <SeeMyNotbookBttn/>
+
     </div>
   );
 }
