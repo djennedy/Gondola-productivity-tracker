@@ -3,24 +3,19 @@ import Active_Header from './Active_header';
 import Note_Box from './NoteBox';
 import SettingsBtn from './Settings_btn';
 import SeeMyNotbookBttn from './SeeMyNotebookBttn';
-import {Link } from 'react-router-dom';
 import './Panel1.css';
-
-function Box() {
+import {Link } from 'react-router-dom';
+function SettingsTab() {
   return (
     <div className="Panel1 ">
-       <h1 className = "Header">What are we up to?</h1> 
+       <h1 className = "Header">Settings</h1> 
       
-       <Active_Header/>
-       <Link to="/settings">
+       <Link to="/">
         <SettingsBtn/>
        </Link>
-       <Note_Box/>
-       <SaveMyNoteBttn/>
-       <SeeMyNotbookBttn/>
 
     </div>
   );
 }
 
-export default Box;
+export default SettingsTab;

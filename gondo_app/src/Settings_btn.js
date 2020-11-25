@@ -15,7 +15,7 @@ class Settings_btn extends React.Component {
   
   render(){
     return (  
-    <img src={cargo} className="Settings_btn" onClick={() =>  alert('Settings')  }/>
+    <img src={cargo} className="Settings_btn" />
     );
   }
 }
