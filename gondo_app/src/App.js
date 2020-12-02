@@ -7,6 +7,8 @@ import { browserHistory, Router, Route } from 'react-router';
 import Box from './Panel1';
 import SettingsTab from './PanelSettings';
 import { Switch } from 'react-router-dom';
+import PauseBttn from './PauseBttn';
+import StopTheRideBttn from './StopTheRideBttn';
 function App() {
   return (
     <main>
