@@ -5,7 +5,7 @@
     left: 241px;
     top: 50px;
     
-    background: #7F95A8;
+    background: #2F2F37;
     border-radius: 20px;
     
 }
@@ -61,7 +61,7 @@
     left: 30px;
     top: 440px;
     
-    background: #57748C;
+    background: #202020;
     border-radius: 20px;
     transform: matrix(1, 0, 0, 1, 0, 0);
 }
@@ -93,7 +93,7 @@
     top: 110px;
         
     border: 2px solid #FFFFFF;
-    background-color:#57748C ;
+    background-color:#202020 ;
     box-sizing: border-box;
     border-radius: 10px;
     font-family: Roboto; font-size: 30px ; 
