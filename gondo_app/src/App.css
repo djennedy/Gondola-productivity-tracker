@@ -44,6 +44,12 @@ line-height: 42px;
 color: #FFFFFF;
 }
 
+.blackBackground {
+  background: #202020;
+  width: 10000px;
+  height: 10000px;
+}
+
 
 @keyframes App-logo-spin {
   from {

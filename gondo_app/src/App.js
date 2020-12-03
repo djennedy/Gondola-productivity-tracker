@@ -12,7 +12,7 @@ import StopTheRideBttn from './StopTheRideBttn';
 function App() {
   return (
     <main>
-      <div>
+      <div className="blackBackground">
         <Panel2/>
         <Switch>
           <Route path="/" component={Box} exact />
